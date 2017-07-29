@@ -1,0 +1,32 @@
+.navbar-brand img {
+    max-height: initial !important;
+}
+
+#logo {
+    background: url("../img/logo.png") no-repeat;
+    float: left;
+}
+
+#rlogo {
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+hr {
+    border-top: 10px solid#7d97ad;
+}
+
+#homeimg {
+    background-image: url("../img/mouse.jpg");
+    background-size: cover;
+}
+
+.work_feature {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+section > h3 {
+    margin-top: 20px;
+}

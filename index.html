@@ -6,41 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.4/css/bulma.min.css" integrity="sha256-cqlVHMFcSR4diUVzW7ot+yIE0EHW0jfNvRG9GVEt8pE=" crossorigin="anonymous" />
-    <style>
-        hr {
-            border-top: 10px solid#7d97ad;
-        }
-        #homeimg {
-            background-image: url('mouse.jpg');
-            background-size: cover;
-        }
-        .work_feature {
-            text-transform: uppercase;
-            font-weight: 700;
-            font-size: 2em;
-        }
-    </style>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <header class="container">
-        <h1 class="title is-1 has-text-right">NAGIB THARANI</h1>
-        <h2 class="subtitle has-text-right">DEV PORTFOLIO</h2>
-        <hr>
-    </header>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="http://udacity.com">
+                        <img src="img/logo.png" alt="" width="112" height="28">
+                    </a>
+                </div>
+                <div class="navbar-menu">
+                    <div class="navbar-end">
+                        <div id="rlogo">
+                            <h1 class="title is-2 has-text-right">NAGIB THARANI</h1>
+                            <h2 class="subtitle has-text-right">DEV PORTFOLIO</h2>
+                        </div>
+                    </div>
+                </div>
+            </nav>        
+            <hr>
+        </header>
+    </div>
     <main class="container">
         <section id="homeimg" class="hero is-large is-primary">
-        <div class="hero-body">
-            <div class="container">
-            <h3 class="title">
-                My Portfolio
-            </h3>
-            <h4 class="subtitle">
-                I manage programs. I code. I sell.
-            </h4>
+            <div class="hero-body">
+                <div class="container">
+                <h3 class="title">
+                    My Portfolio
+                </h3>
+                <h4 class="subtitle">
+                    I manage programs. I code. I sell.
+                </h4>
+                </div>
             </div>
-        </div>
         </section>
-
         <section>
             <h3 class="title is-1">Featured Work</h3>
             <div class="columns">
@@ -48,7 +49,7 @@
                     <div class="card">
                         <div class="card-image">
                             <figure class="image is-4by3">
-                            <img src="coffee.jpg" alt="Coffee Image">
+                            <img src="img/coffee.jpg" alt="Coffee Image">
                             </figure>
                         </div>
                         <div class="card-content">
@@ -67,7 +68,7 @@
                     <div class="card">
                         <div class="card-image">
                             <figure class="image is-4by3">
-                            <img src="plane.jpg" alt="Plane Image">
+                            <img src="img/plane.jpg" alt="Plane Image">
                             </figure>
                         </div>
                         <div class="card-content">
@@ -86,7 +87,7 @@
                     <div class="card">
                         <div class="card-image">
                             <figure class="image is-4by3">
-                            <img src="mac.jpg" alt="Mac Image">
+                            <img src="img/mac.jpg" alt="Mac Image">
                             </figure>
                         </div>
                         <div class="card-content">
@@ -101,12 +102,13 @@
                         </div>
                     </div>
                 </div><!-- Add Additional Columns Here -->
-                
             </div>            
         </section>
     </main>
-    <footer>
-
+    <footer class="container">
+        <p>
+            Arrows graphic by <a href="http://www.flaticon.com/authors/freepik">freepik</a> from <a href="http://www.flaticon.com/">Flaticon</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>. Check out the new logo that I created on <a href="http://logomakr.com" title="Logo Maker">LogoMaker.com</a> https://logomakr.com/2kKNvv2kKNvv
+        </p>
     </footer>    
 </body>
 </html>

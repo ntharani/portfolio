@@ -7,13 +7,28 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.4/css/bulma.min.css" integrity="sha256-cqlVHMFcSR4diUVzW7ot+yIE0EHW0jfNvRG9GVEt8pE=" crossorigin="anonymous" />
 </head>
+<style>
+    hr {
+        border-top: 10px solid#7d97ad;
+    }
+    #homeimg {
+        background-image: url('mouse.jpg');
+        background-size: cover;
+    }
+    .work_feature {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 2em;
+    }
+</style>
 <body>
     <header class="container">
         <h1 class="title is-1 has-text-right">NAGIB THARANI</h1>
         <h2 class="subtitle has-text-right">DEV PORTFOLIO</h2>
+        <hr>
     </header>
     <main class="container">
-        <section class="hero is-large is-primary">
+        <section id="homeimg" class="hero is-large is-primary">
         <div class="hero-body">
             <div class="container">
             <h1 class="title">
@@ -33,17 +48,17 @@
                     <div class="card">
                         <div class="card-image">
                             <figure class="image is-4by3">
-                            <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
+                            <img src="coffee.jpg" alt="Coffee Image">
                             </figure>
                         </div>
                         <div class="card-content">
-                            Some Content
+                            <h4 class="work_feature">Favourite Movies</h4>
                             <div class="content">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Phasellus nec iaculis mauris. <a>@bulmaio</a>.
                             <a>#css</a> <a>#responsive</a>
                             <br>
-                            <small>11:09 PM - 1 Jan 2016</small>
+                            <small><a href="https://github.com/ntharani/ud036_StarterCode">GitHub Link</a></small>
                             </div>
                         </div>
                     </div>
@@ -52,17 +67,17 @@
                     <div class="card">
                         <div class="card-image">
                             <figure class="image is-4by3">
-                            <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
+                            <img src="plane.jpg" alt="Plane Image">
                             </figure>
                         </div>
                         <div class="card-content">
-                            Some Content
+                            <h4 class="work_feature">TailorCV</h4>
                             <div class="content">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Phasellus nec iaculis mauris. <a>@bulmaio</a>.
                             <a>#css</a> <a>#responsive</a>
                             <br>
-                            <small>11:09 PM - 1 Jan 2016</small>
+                            <small><a href="www.tailorcv.com">tailorcv.com</a></small>
                             </div>
                         </div>
                     </div>
@@ -71,17 +86,17 @@
                     <div class="card">
                         <div class="card-image">
                             <figure class="image is-4by3">
-                            <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
+                            <img src="mac.jpg" alt="Mac Image">
                             </figure>
                         </div>
                         <div class="card-content">
-                            Some Content
+                            <h4 class="work_feature">HYPER STATIC</h4>
                             <div class="content">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Phasellus nec iaculis mauris. <a>@bulmaio</a>.
                             <a>#css</a> <a>#responsive</a>
                             <br>
-                            <small>11:09 PM - 1 Jan 2016</small>
+                            <small><a href="www.gohyperstatic.com">gohyperstatic.com</a></small>
                             </div>
                         </div>
                     </div>
